@@ -1,1 +1,1 @@
- WeatherApp1
+WeatherApp
