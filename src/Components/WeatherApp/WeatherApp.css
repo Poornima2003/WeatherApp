@@ -1,0 +1,94 @@
+.container {
+    width: 100%;
+    max-width: 607px;
+    height: auto;
+    margin: auto;
+    margin-top: 75px;
+    border-radius: 12px;
+    background-image: linear-gradient(180deg, #130754 0%, #3b2f80 100%);
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding doesn't affect the total width */
+  }
+  
+  .top-bar {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    padding-top: 20px; /* Adjusted for smaller padding */
+  }
+  
+  .top-bar input {
+    width: 70%; /* Adjusted to a percentage for responsiveness */
+    max-width: 362px;
+    height: 48px; /* Adjusted for better proportions */
+    background: #ebfffc;
+    border: none;
+    outline: none;
+    border-radius: 24px;
+    padding-left: 20px; /* Adjusted for smaller padding */
+    color: #626262;
+    font-size: 16px; /* Adjusted for smaller font size */
+    font-weight: 400;
+  }
+  
+  .search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px; /* Adjusted for better proportions */
+    height: 48px; /* Adjusted for better proportions */
+    background: #ebfffc;
+    border-radius: 24px;
+    cursor: pointer;
+  }
+  
+  .weather-img {
+    margin-top: 20px; /* Adjusted for smaller margin */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .weather-temp {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 60px; /* Adjusted for smaller font size */
+    font-weight: 400;
+  }
+  
+  .weather-location {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 40px; /* Adjusted for smaller font size */
+    font-weight: 400;
+  }
+  
+  .data-container {
+    margin-top: 30px; /* Adjusted for smaller margin */
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .element {
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px; /* Adjusted for smaller gap */
+  }
+  
+  .data {
+    font-size: 24px; /* Adjusted for smaller font size */
+    font-weight: 400;
+  }
+  
+  .text {
+    font-size: 16px; /* Adjusted for smaller font size */
+    font-weight: 400;
+  }
+  
+  .icon {
+    margin-top: 6px; /* Adjusted for smaller margin */
+  }
+  
